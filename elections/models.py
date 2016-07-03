@@ -1,3 +1,9 @@
 from django.db import models
 
-# Create your models here.
+class Calculator:
+    def __init__(self):
+        self.result = 0
+
+    def adder(self, num):
+        self.result += num
+        return self.result
