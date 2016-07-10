@@ -26,8 +26,12 @@ class HousePark:
         print("%s, %s여행을 가다." % (self.fullname, where))
     def love(self, other):
         print("%s, %s 사랑에 빠졌네" % (self.fullname, other.fullname))
+        message = "%s, %s 사랑에 빠졌네" % (self.fullname, other.fullname)
+        return message
     def __add__(self, other):
         print("%s, %s 결혼했네" % (self.fullname, other.fullname))
+        message = "%s, %s 결혼했네" % (self.fullname, other.fullname)
+        return message
 
 
 class HouseKim(HousePark):

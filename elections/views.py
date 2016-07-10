@@ -18,9 +18,10 @@ def index(request):
     print(type(result))
 
     # 상속 예시
-    pey = HousePark("응용")
+    pey = HousePark("성규")
     juliet = HouseKim("줄리엣")
-    pey.love(juliet)
+    result = pey.love(juliet)
+    result = pey.__add__(juliet)
     pey + juliet
 
     return HttpResponse(result)
