@@ -18,7 +18,7 @@ class Service:
         message = "%s님 %s + %s = %s입니다." % (self.name, a, b, result)
         return message
 
-		# git 테스트
+		# git 테스트 1
 		
 class HousePark:
     lastname = "박"
