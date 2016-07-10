@@ -20,7 +20,7 @@ def index(request):
     # 상속 예시
     pey = HousePark("응용")
     juliet = HouseKim("줄리엣")
-    pey.love(juliet)
-    pey + juliet
+    result = pey.love(juliet)
+    result = pey + juliet
 
     return HttpResponse(result)
