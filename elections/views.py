@@ -17,4 +17,10 @@ def index(request):
     print(result2)
     print(type(result))
 
+    # 상속 예시
+    pey = HousePark("응용")
+    juliet = HouseKim("줄리엣")
+    pey.love(juliet)
+    pey + juliet
+
     return HttpResponse(result)
